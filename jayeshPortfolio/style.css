@@ -54,10 +54,24 @@ nav ul li a:hover{
 .heroSection div h1{
     font-size: 5rem;
     text-align: center;
+    width: 60rem;
 }
-.heroSection div p{
+.heroSection div div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.heroSection div div p{
     font-size: 2rem;
     text-align: center;
+}
+.heroSection div div span{
+    font-size: 4rem;
+    text-align: center;
+    animation: blink 1.5s steps(5, start) infinite;
+}
+@keyframes blink {
+    to { visibility: hidden;}
 }
 
 /* About css */
@@ -102,5 +116,91 @@ nav ul li a:hover{
 #skills div img{
     width: 20rem;
     height: 20rem;
+    border-radius: 100%;
+}
+
+/* Experience css */
+#experience{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+    background-color: beige;
+}
+#experience h2{
+    font-size: 3.5rem;
+}
+#experience>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 4rem;
+}
+.main_card{
+    border: 1px solid black;
+    width: 25vw;
+    height: auto;
+    margin: 1rem;
+    min-width: 25rem;
+}
+.about_img{
+    width: 100%;
+    height: 25vh;
+    background-color: grey;
+}
+.about_img img{
+    width: 100%;
+    height: 100%;
+}
+.about_card{
+    padding: 2rem 1rem;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.about_card *{
+    padding-bottom: 1rem;
+}
+.about_card p{
+    font-size: 1.8rem;
+}
+.about_card a{
+    font-size: 1.5rem;
+    padding: 1rem;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+}
+
+/* Footer css */
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: thistle;
+}
+.copyright{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+.copyright h3{
+    font-size: 2.4rem;
+}
+.copyright span{
+    font-size: 4.5rem;
+}
+.copyright p{
+    font-size: 1.5rem;
+}
+footer img{
+    width: 4rem;
+    height: 4rem;
     border-radius: 100%;
 }
