@@ -207,28 +207,28 @@ footer img{
 
 
 /* Media Queries */
-@media only screen and (max-width:1150px) {
+@media screen and (max-width:1150px) {
     #skills div{
         width: 100%;
         gap: 2rem;
     }
 }
-@media only screen and (max-width:950px) {
+@media screen and (max-width:950px) {
     *{
         font-size: 50%;
     }
 }
-@media only screen and (max-width:750px) {
+@media screen and (max-width:750px) {
     *{
         font-size: 40%;
     }
 }
-@media only screen and (max-width:600px) {
+@media screen and (max-width:600px) {
     *{
         font-size: 30%;
     }
 }
-@media only screen and (max-width:450px) {
+@media screen and (max-width:450px) {
     .heroSection{
         flex-direction: column-reverse;
     }
@@ -236,7 +236,7 @@ footer img{
         width: auto;
     }
 }
-@media only screen and (max-width:300px) {
+@media screen and (max-width:300px) {
     nav{
         flex-direction: column;
         gap: 2rem;
@@ -245,7 +245,7 @@ footer img{
         flex-direction: column;
     }
 }
-@media only screen and (max-width:250px) {
+@media screen and (max-width:250px) {
     *{
         font-size: 20%;
     }
